@@ -21,6 +21,8 @@ export default function NewOrderPage() {
     const defaultDeliveryDate = tomorrow.toISOString().split('T')[0];
 
     const [order, setOrder] = useState<Order>({
+        id: Date.now().toString(),
+        customer: '',
         type: 'sale',
         status: 'Completed',
         orderDate: defaultOrderDate,
