@@ -18,4 +18,16 @@ interface Order {
     notes?: string;
 }
 
-export type { Product, Order };
+
+interface Expense {
+    id: string;
+    description: string;
+    category: 'office-supplies' | 'travel' | 'utilities' | 'equipment' | 'other';
+    vendor: string;
+    amount: number;
+    date: string;
+    paymentMethod: string;
+    notes?: string;
+}
+
+export type { Product, Order, Expense };
