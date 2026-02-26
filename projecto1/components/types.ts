@@ -7,6 +7,8 @@ interface Product {
 }
 
 interface Order {
+    id: string;
+    customer?: string;
     type: 'sale' | 'purchase';
     status: string;
     orderDate: string;

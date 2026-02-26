@@ -5,6 +5,8 @@ import { Order } from '../../components/types';
 
 const mockPastOrders: Order[] = [
     {
+        id: 'PO001',
+        customer: 'John Smith',
         type: 'sale',
         status: 'Completed',
         orderDate: '2026-02-20',
@@ -17,6 +19,8 @@ const mockPastOrders: Order[] = [
         notes: 'Delivered on time'
     },
     {
+        id: 'PO002',
+        customer: 'Local Bakery',
         type: 'purchase',
         status: 'Completed',
         orderDate: '2026-02-18',
@@ -28,6 +32,8 @@ const mockPastOrders: Order[] = [
         notes: ''
     },
     {
+        id: 'PO003',
+        customer: 'Jane Doe',
         type: 'sale',
         status: 'Completed',
         orderDate: '2026-02-15',
