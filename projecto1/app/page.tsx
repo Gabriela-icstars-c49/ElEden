@@ -1,4 +1,3 @@
-import Header from '../components/Header';
 import OrderProgressCard from '../components/OrderProgressCard';
 import MetricCard from '../components/MetricCard';
 import BreakdownSection from '../components/BreakdownSection';
@@ -9,7 +8,6 @@ import { DollarSign, Package, TrendingUp, ShoppingCart } from 'lucide-react';
 export default function Home() {
     return (
         <div className="min-h-screen bg-gray-50">
-            <Header />
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                 <p className="text-center text-gray-600 mb-4">February 2026</p>
                 <OrderProgressCard />
